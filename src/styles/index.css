@@ -1,12 +1,29 @@
+.main-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    font-family: monospace;
+    color: white;
+}
 
-/* 
+.counter {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: 550px;
+    height: 150px;
+}
 
-    You can write your own styles here...
+svg {
+    margin-bottom: 20px;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
 
-*/
+.counter p {
+    margin: 3px;
+    padding: 3px;
+}
+
